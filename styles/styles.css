@@ -33,6 +33,13 @@ body {
     margin: 5px;
 }
 
+#game {
+  border-radius: 5%;
+  border-color: #94524A;
+  border: solid 5px;
+  margin: 5px;
+}
+
 .containerDiv {
     min-height: 100%;
     padding: 20px;
