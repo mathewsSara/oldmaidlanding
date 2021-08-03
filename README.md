@@ -1,0 +1,1 @@
+Landing page with some info about the card game. Will add more content and fancify this later in the project.

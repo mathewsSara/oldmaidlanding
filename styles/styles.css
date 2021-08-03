@@ -1,0 +1,53 @@
+
+ 
+  .sidenav {
+    padding-top: 20px;
+    background-color: #F3F9D2;;
+    height: 100%;
+  }
+
+  footer {
+    background-color: #1F363D;
+    color: white;
+    padding: 20px;
+    position: absolute bottom;
+    bottom: 0;
+    height: 100px; /* if changed, change #mainContent */
+    width: 100%;
+    margin: 0px;
+  }
+
+body {
+    background-color: #F3F9D2;
+    font-family: 'Oldenburg', cursive;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#mainContent {
+    padding-bottom: 100px; /* same height as footer */
+    border-radius: 5%;
+    border-color: #94524A;
+    border: solid 5px;
+    margin: 5px;
+}
+
+.containerDiv {
+    min-height: 100%;
+    padding: 20px;
+    position: sticky top;
+    background-color: #1F363D;
+    color: #94524A;
+    font-family: 'Oldenburg', cursive;
+    text-align: center;
+}
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
